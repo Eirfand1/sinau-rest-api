@@ -1,0 +1,31 @@
+[
+   
+   {
+      "name" : "Ego Irfandi",
+      "age"  : 18,
+      "nim"  : "230202007",
+      "passed" : true,
+      "hobby"  : [
+         "coding",
+         "anime"
+      ],
+      "mentor" : {
+         "mentor1" : "Abda'u",
+         "mentor2" : "Novi"
+      }
+   },
+   {
+      "name" : "Yuki Nagato",
+      "age"  : 18,
+      "nim"  : "230202008",
+      "passed" : true,
+      "hobby"  : [
+         "coding",
+         "anime"
+      ],
+      "mentor" : {
+         "mentor1" : "Rostika",
+         "mentor2" : "Laura"
+      }
+   }
+]
