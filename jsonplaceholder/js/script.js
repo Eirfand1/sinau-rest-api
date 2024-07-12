@@ -3,6 +3,7 @@ $(document).ready(function(){
     const $searchInput = $('#searchInput');
 
     function toggleElementVisibility($element, show) {
+      // Jika true berarti hiddenya false, itemnya bakal show
         $element.toggleClass('hidden', !show);
     }
 
