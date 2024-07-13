@@ -30,7 +30,7 @@ $(document).ready(function(){
             `).join('');
             
             
-            //tambah data diatas pada class post list
+            // Tambah data diatas pada class post list
             $postsList.html(postsHtml);
             toggleElementVisibility($searchInput, true);
          },
@@ -56,7 +56,9 @@ $(document).ready(function(){
             <div class='post lg:w-3/5 mx-auto'>
             <h2 class='dark:text-white text-3xl font-bold mb-4'>${result.title}</h2>
             <p class='dark:text-white text-xl'>${result.body}</p>
-            <button class='font-bold bg-blue-500 active:bg-blue-700 rounded p-2 text-white' id='back-button'>Kembali</button>
+            <p class='mt-5'>
+            <button class='bg-blue-600 active:bg-blue-800 rounded p-2 text-white' id='back-button'>Kembali</button>
+            </p>
             </div>
             `);
          },
